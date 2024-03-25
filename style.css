@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    height: 300vh;
+    position: relative;
+    background-color: black;
+    z-index: -1;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navbar{
+    height: 80px;
+    width: 100vw;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: flex;
+}
+.first-nav{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(13, 14, 16);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-nav{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(13, 14, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.third-nav{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(13, 14, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.second-nav ul li{
+    list-style-type: none;
+    padding: 0px 10px;
+    font-family: "Poppins", sans-serif;
+}
+.second-nav ul li a{
+    font-size: 15px;
+    color: rgba(245, 245, 220, 0.58);
+    font-weight: bolder;
+}
+.second-nav ul{
+    display: flex;
+}
+.logo{
+    height:59px;
+    width: 230px;
+    background-color: blue;
+    background: url(jio-logo.svg);
+    background-size: cover;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.user-dp{
+    height: 60px;
+    width: 60px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 20px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.first-nav button{
+    background-color: rgb(13, 14, 16);
+    color: #c1a362;
+    margin-left: 18px;
+    padding: 10px 25px;
+    border: 2px solid rgb(193,163,98);
+    border-radius: 30px;
+}
+.third-nav input{
+    background-color: #ffffff1a;
+    padding: 10px 70px;
+    font-size: 17px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    position: absolute;
+    right: 100px;
+    font-family: "Poppins", sans-serif;
+}
+.second-nav ul li a:hover{
+    color: white;
+    font-weight: lighter;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.down-nav{
+    height: 90px;
+    width: 100vw;
+    background-color: rgb(13, 14, 16);
+    position: sticky;
+    top: 0;
+    font-family: "Poppins", sans-serif;
+}
+.down-nav button{
+    background-color:#ffffff1a;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 8px 15px;
+    margin: 20px 6px;
+    border: 2px solid #ffffff1a;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    transition: all ease-in 0.25s;
+}
+.down-nav button:hover{
+    background-color: rgba(240, 248, 255, 0.422);
+    cursor: pointer;
+
+}
+.Big-front{
+    background: url(img/Screenshot\ 2024-03-25\ 110004.png);
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    border: 1px solid black;
+}
+.heading1{
+    color: white;
+    margin: 20px 19px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.Card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    height: 220px;
+    width: 100vw;
+}
+.box1{
+    height: 220px;
+    width: 360px;
+    border: 2px solid rgb(13, 14, 16);
+    border-radius: 15px;
+}
+.bumrah{
+    background: url(img/bomrah.png);
+    background-size: cover;
+}
+.rohit{
+    background: url(img/rohit.png);
+    background-size: cover;
+}
+.gill{
+    background: url(img/gill.png);
+    background-size: cover;
+}
+.umesh{
+    background: url(img/umesh.png);
+    background-size: cover;
+}
+.card2{
+    height: 320px;
+    width: 100vw;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2{
+    height: 320px;
+    width: 240px;
+    background-color: blue;
+    border: 2px solid rgb(13, 14, 16);
+    border-radius: 10px;
+}
+.open-heimar{
+    background: url(img/open-heimar.webp);
+    background-size: cover;
+}
+.nun{
+    background: url(img/nun.avif);
+    background-size: cover;
+}
+.x-movie{
+    background: url(img/x-movie.avif);
+    background-size: cover;
+}
+.flash{
+    background: url(img/flash.avif);
+    background-size: cover;
+}
+.the-Harry{
+    background: url(img/the-harry.webp);
+    background-size: cover;
+}
+.the-Exorcist{
+    background: url(img/the-exorcist.avif);
+    background-size: cover;
+}
+.contact{
+    font-family: "Poppins", sans-serif;
+    height: 250px;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.274);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+}
+.jio-cinema{
+    height: 200px;
+    width: 140px;
+    margin: 30px 30px;
+}
+.jio-cinema ul li{
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.support{
+    font-family: "Poppins", sans-serif;
+    height: 200px;
+    width: 160px;
+    margin: 30px 30px;
+}
+.support ul li{
+    list-style-type: none;
+    margin-left: 5px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.copy-right{
+    padding: 20px 50px;
+    font-size: 15px;
+    height: 70px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(128, 128, 128, 0.274);
+    font-family: "Poppins", sans-serif;
+}
+.right-contact1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-contact1 i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.right-contact2{
+    height: 200px;
+    width: 500px;
+    margin-left: 10px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-contact2 h2{
+    text-align: center;
+}
+.app-contact1{
+    height: 50px;
+    width: 170px;
+    margin-top: 10px;
+    background: url(img/googlePlay.svg);
+    background-size: cover;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.app-contact2{
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: url(img/appleStore.svg);
+    background-size: cover;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.chanel{
+    height: 250px;
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.chanels{
+    height: 130px;
+    width: 130px;
+    background-color: blue;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.box1a{
+    background: url(img/colors-hindi.avif);
+    background-size: cover;
+}
+.box1b{
+    background: url(img/peacock.avif);
+    background-size: cover;
+}
+.box1c{
+    background: url(img/colors-kannada.avif);
+    background-size: cover;
+}
+.box1j{
+    background: url(img/colors-bangla.avif);
+    background-size: cover;
+}
+.box1d{
+    background: url(img/colors-gujarati.avif);
+    background-size: cover;
+}
+.box1e{
+    background: url(img/hbo.avif);
+    background-size: cover;
+}
+.box1f{
+    background: url(img/paramount-1709290088152.avif);
+    background-size: cover;
+}
+.box1g{
+    background: url(img/channel-logo.avif);
+    background-size: cover;
+}
+.box1h{
+    background: url(img/marathi-logo.avif);
+    background-size: cover;
+}
+.box1i{
+    background: url(img/nick.avif);
+    background-size: cover;
+}
